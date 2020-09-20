@@ -4,13 +4,15 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "format": "html-beautify **/*.html --replace",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "format": "npm run format:html",
+    "format:html": "node_modules/.bin/js-beautify --config .jsbeautifyrc --syntax=html \"src/**/*.html\""
   },
   "lint-staged": {
-    "**/*.{html}": [
-      "js-beautify --syntax=html",
+    "src/**/*.{html}": [
+      "npm run format",
+      "js-beautify --config .jsbeautifyrc",
       "git add"
     ]
   },
