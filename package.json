@@ -10,7 +10,7 @@
     "format:html": "html-beautify \"src/**/*.html\""
   },
   "lint-staged": {
-    "src/**/index.html": [
+    "src/assets/index.html": [
       "npm run format",
       "git add"
     ]
