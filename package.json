@@ -10,7 +10,7 @@
   },
   "lint-staged": {
     "**/*.{html}": [
-      "npm run format",
+      "js-beautify --syntax=html",
       "git add"
     ]
   },
