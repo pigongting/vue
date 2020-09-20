@@ -7,13 +7,11 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "format": "npm run format:html",
-    "format:html": "node_modules/.bin/js-beautify --config .jsbeautifyrc --syntax=html \"src/**/*.html\"",
-    "precommit": "lint-staged"
+    "format:html": "node_modules/.bin/js-beautify --config .jsbeautifyrc --syntax=html \"src/**/*.html\""
   },
   "lint-staged": {
     "src/assets/index.html": [
       "npm run format",
-      "js-beautify --config .jsbeautifyrc",
       "git add"
     ]
   },
