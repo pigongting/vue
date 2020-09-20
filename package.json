@@ -10,7 +10,7 @@
   },
   "lint-staged": {
     "public/*.{html}": [
-      "html-beautify --replace",
+      "html-beautify ./public/index.html --replace",
       "git add"
     ]
   },
