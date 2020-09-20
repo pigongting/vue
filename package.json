@@ -7,7 +7,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "format": "npm run format:html",
-    "format:html": "html-beautify --config .jsbeautifyrc \"src/**/*.html\""
+    "format:html": "html-beautify \"src/**/*.html\""
   },
   "lint-staged": {
     "src/assets/index.html": [
