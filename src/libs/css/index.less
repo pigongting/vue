@@ -1,0 +1,307 @@
+@import "./_var.css";
+@import "./_reset.css";
+@import "./_emmet.css";
+@import "./_emmetExt.css";
+@import "./_font.css";
+@import "./_layout.css";
+@import "./_theme.css";
+
+.group::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 4px;
+  right: 4px;
+  height: 4px;
+  background-color: #FDF2EA;
+}
+
+.group::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 4px;
+  right: 4px;
+  height: 4px;
+  background-color: #FDF2EA;
+}
+
+/* 上-左 */
+.chunk-t-l {
+  position: absolute;
+  top: 4px;
+  left: 0;
+  background-color: #DB3F2C;
+  width: 10px;
+  height: 2px;
+}
+
+.chunk-t-l::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 4px;
+  width: 2px;
+  height: 4px;
+  background-color: #DB3F2C;
+}
+
+.chunk-t-l::after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: -2px;
+  width: 2px;
+  height: 10px;
+  background-color: #DB3F2C;
+}
+
+.chunk-t-l-inner {
+  background-color: #DB3F2C;
+  position: absolute;
+  top: 8px;
+  right: 0;
+  width: 6px;
+  height: 2px;
+}
+
+.chunk-t-l-inner::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0px;
+  width: 2px;
+  height: 4px;
+  background-color: #DB3F2C;
+}
+
+.chunk-t-l-inner::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 4px;
+  height: 2px;
+  background-color: #DB3F2C;
+}
+
+/* 上-右 */
+.chunk-t-r {
+  position: absolute;
+  top: 4px;
+  right: 0;
+  background-color: #DB3F2C;
+  width: 10px;
+  height: 2px;
+}
+
+.chunk-t-r::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  right: 4px;
+  width: 2px;
+  height: 4px;
+  background-color: #DB3F2C;
+}
+
+.chunk-t-r::after {
+  content: '';
+  position: absolute;
+  top: 0px;
+  left: -2px;
+  width: 2px;
+  height: 10px;
+  background-color: #DB3F2C;
+}
+
+.chunk-t-r-inner {
+  background-color: #DB3F2C;
+  position: absolute;
+  top: 8px;
+  left: 0;
+  width: 6px;
+  height: 2px;
+}
+
+.chunk-t-r-inner::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  right: 0px;
+  width: 2px;
+  height: 4px;
+  background-color: #DB3F2C;
+}
+
+.chunk-t-r-inner::after {
+  content: '';
+  position: absolute;
+  top: -4px;
+  right: 0;
+  width: 4px;
+  height: 2px;
+  background-color: #DB3F2C;
+}
+
+/* 下-左 */
+.chunk-b-l {
+  position: absolute;
+  bottom: 4px;
+  left: 0;
+  background-color: #DB3F2C;
+  width: 10px;
+  height: 2px;
+}
+
+.chunk-b-l::before {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 4px;
+  width: 2px;
+  height: 4px;
+  background-color: #DB3F2C;
+}
+
+.chunk-b-l::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  right: -2px;
+  width: 2px;
+  height: 10px;
+  background-color: #DB3F2C;
+}
+
+.chunk-b-l-inner {
+  background-color: #DB3F2C;
+  position: absolute;
+  bottom: 8px;
+  right: 0;
+  width: 6px;
+  height: 2px;
+}
+
+.chunk-b-l-inner::before {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0px;
+  width: 2px;
+  height: 4px;
+  background-color: #DB3F2C;
+}
+
+.chunk-b-l-inner::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 4px;
+  height: 2px;
+  background-color: #DB3F2C;
+}
+
+/* 下-右 */
+.chunk-b-r {
+  position: absolute;
+  bottom: 4px;
+  right: 0;
+  background-color: #DB3F2C;
+  width: 10px;
+  height: 2px;
+}
+
+.chunk-b-r::before {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  right: 4px;
+  width: 2px;
+  height: 4px;
+  background-color: #DB3F2C;
+}
+
+.chunk-b-r::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  left: -2px;
+  width: 2px;
+  height: 10px;
+  background-color: #DB3F2C;
+}
+
+.chunk-b-r-inner {
+  background-color: #DB3F2C;
+  position: absolute;
+  bottom: 8px;
+  left: 0;
+  width: 6px;
+  height: 2px;
+}
+
+.chunk-b-r-inner::before {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  right: 0px;
+  width: 2px;
+  height: 4px;
+  background-color: #DB3F2C;
+}
+
+.chunk-b-r-inner::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  right: 0;
+  width: 4px;
+  height: 2px;
+  background-color: #DB3F2C;
+}
+
+/* 渐变线-上 */
+.chunk-t {
+  position: absolute;
+  top: 0;
+  left: 4px;
+  right: 4px;
+  height: 2px;
+  background: #DB3F2C;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #DB3F2C), color-stop(50%, #EC7A45), color-stop(100%, #DB3F2C));
+}
+
+/* 渐变线-下 */
+.chunk-b {
+  position: absolute;
+  bottom: 0;
+  left: 4px;
+  right: 4px;
+  height: 2px;
+  background: #DB3F2C;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #DB3F2C), color-stop(50%, #EC7A45), color-stop(100%, #DB3F2C));
+}
+
+/* 渐变线-左 */
+.chunk-l {
+  position: absolute;
+  left: 0;
+  top: 4px;
+  bottom: 4px;
+  width: 2px;
+  background: #DB3F2C;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #DB3F2C), color-stop(50%, #EC7A45), color-stop(100%, #DB3F2C));
+}
+
+/* 渐变线-右 */
+.chunk-r {
+  position: absolute;
+  right: 0;
+  top: 4px;
+  bottom: 4px;
+  width: 2px;
+  background: #DB3F2C;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #DB3F2C), color-stop(50%, #EC7A45), color-stop(100%, #DB3F2C));
+}
